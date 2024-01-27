@@ -1,0 +1,19 @@
+body{
+  background-color: #b4f2e1;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 40px;
+  background-color: aliceblue;
+  color: pink;
+  margin-top: 50%;
+  border-radius: 15px;
+}
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
