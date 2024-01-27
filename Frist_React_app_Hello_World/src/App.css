@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    color: aliceblue;
+    background-color: #242424;
+}
+
 .heading{
-    color: aqua;
+    color: aliceblue;
     text-align: center;
+    margin: 50px;
+    font-family: 'Patrick Hand', cursive;
 
 }
 
@@ -16,8 +23,7 @@
 }
 
 .img_div img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin-left: 15px; 
-    margin-top: 45px;
 }
