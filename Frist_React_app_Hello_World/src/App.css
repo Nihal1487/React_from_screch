@@ -9,13 +9,6 @@ body{
     background-color: #242424;
 }
 
-.heading{
-    color: aliceblue;
-    text-align: center;
-    margin: 50px;
-    font-family: 'Patrick Hand', cursive;
-
-}
 
 .img_div{
     display: flex;
