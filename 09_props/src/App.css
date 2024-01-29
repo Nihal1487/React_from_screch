@@ -1,0 +1,45 @@
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 10px;
+    border: 1px solid #3f3636; 
+  }
+  
+  .card_img {
+    width: 250px;
+    height: 350px;
+  }
+  
+  .card_info {
+    padding: 15px;
+  }
+  
+  .card_category {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .card_title {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #555;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
+  
