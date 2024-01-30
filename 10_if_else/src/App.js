@@ -3,15 +3,15 @@ import "./App.css";
 import Netflix from "./Netflix";
 import Amazonn from "./Amazonn";
 
-const favS = "amazon";
+const favS = "netflix";
 
-const FavSeris = () => {
-  if (favS === "netflix") {
-    return <Netflix />
-  }else{
-   return  <Amazonn />
-  }
-}
+// const FavSeris = () => {
+//   if (favS === "netflix") {
+//     return <Netflix />
+//   }else{
+//    return  <Amazonn />
+//   }
+// }
 
 const App = () => {
   return (
@@ -19,7 +19,9 @@ const App = () => {
       <h1 style={{ textAlign: "center" }}>
         List of My Fav Top 5 Nettflix series
       </h1>
-   <FavSeris />
+      {/* <FavSeris /> */}
+      
+      {favS === "netflix" ? <Netflix /> : <Amazonn />}
     </>
   );
 };
