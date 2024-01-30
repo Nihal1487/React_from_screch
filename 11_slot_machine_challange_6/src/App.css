@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(167, 166, 166);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.head{
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.opdiv{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 14px;
+ margin: 15px;
+}
