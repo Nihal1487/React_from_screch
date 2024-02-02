@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: aliceblue;
+}
+
+div{
+  margin-top: 50px;
+width: 100%;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+button{
+
+  background-color: palevioletred;
+  color: aliceblue;
+  outline: none;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
